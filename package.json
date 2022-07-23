@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   "homepage": "https://github.com/SHALFY007/TelegramBot#readme",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "nodemon": "^2.0.19",
     "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
